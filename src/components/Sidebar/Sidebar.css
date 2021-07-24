@@ -1,0 +1,98 @@
+.main-color {
+    line-height: 1.2rem !important;
+    margin: 0;
+  }
+  .sideHeader {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+    height: 67px;
+    margin-bottom: 35px;
+  }
+  
+  .logo {
+    width: 100% !important;
+  }
+  
+  .sidebar {
+    background-color: var(--main-color);
+    flex: 0 0 220px !important;
+    max-width: 250px !important;
+  }
+  
+  .ant-layout-sider {
+    min-width: 230px !important;
+    background-color: var(--main-color) !important;
+  }
+  
+  .ant-menu {
+    background-color: var(--main-color) !important;
+    padding-left: 0.7rem !important;
+  }
+  .header {
+    background-color: var(--secondary-color) !important;
+  }
+  .ant-menu-item:active,
+  .ant-menu-submenu-title:active {
+    background: none !important;
+  }
+  
+  .ant-menu-item-selected {
+    background-color: #fff !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .ant-menu-item,
+  .ant-menu-submenu-title {
+    transition: none !important;
+  }
+  
+  .ant-menu-item,
+  .ant-menu-item a {
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 13px !important;
+  }
+  
+  .ant-menu-root.ant-menu-vertical,
+  .ant-menu-root.ant-menu-vertical-left,
+  .ant-menu-root.ant-menu-vertical-right,
+  .ant-menu-root.ant-menu-inline {
+    justify-content: center;
+    border: none;
+  }
+  
+  .ant-menu-item-selected {
+    color: var(--main-color) !important;
+    width: 200px !important;
+    height: 44px !important;
+    border-radius: 5px;
+  }
+  .ant-menu-item-selected a {
+    color: var(--main-color) !important;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .ant-menu-inline .ant-menu-selected::after,
+  .ant-menu-inline .ant-menu-item-selected::after {
+    display: none !important;
+  }
+  .ant-layout-content {
+    min-height: calc(100vh - 67px);
+  }
+  @media (max-width: 992px) {
+    .ant-layout-sider {
+      min-width: 0 !important;
+    }
+    .sidebar {
+      flex: none !important;
+    }
+    .ant-menu-item-selected {
+      width: 165px !important;
+    }
+    .ant-layout-sider-zero-width-trigger {
+      top: 0;
+    }
+  }
+  

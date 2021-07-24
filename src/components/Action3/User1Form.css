@@ -1,0 +1,81 @@
+.user1__form {
+    width: 800px;
+}
+.form__first-section {
+    display: flex;
+    align-items: center;
+    width: 780px;
+}
+.form_groups {
+    display: flex!important;
+    flex-wrap: nowrap!important;
+    margin: 0;
+    margin-top: 10px!important;
+}
+.form__second-section {
+    display: flex;
+    width: 780px;
+}
+.label__user1 {
+    width: 300px;
+}
+.label__user1__adress {
+    width: 310px;
+}
+.ant-picker  {
+    width: 295px;
+}
+.form_groups-sixth {
+    width: 780px;
+    display: flex!important;
+    flex-wrap: nowrap!important;
+    margin: 0;
+    margin-top: 10px!important;
+}
+.label__user2 {
+    width: 300px;
+}
+.user__textarea {
+    width: 500px;
+        height: 150px;
+        resize: none;
+}
+.ant-select  {
+    width: 280px!important;
+}
+.section_name_input-adress {
+    width: 300px!important;
+}
+.label__user1__date {
+    width: 185px;
+}
+.form__first-right {
+    margin-left: 50px;
+}
+.search__user1 {
+    width: 240px!important;
+    height: 90px!important;
+    word-wrap: break-word!important;
+    background-color: #039F25;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+ input::placeholder {
+    font-weight: 600;
+    color: black !important;
+  }
+  input[type="file"]::-webkit-file-upload-button,
+.excel_reader input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #0391CD!important;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+.label__file {
+    width: 185px;
+}

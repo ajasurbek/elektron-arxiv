@@ -1,0 +1,197 @@
+/* .ant-select-arrow {
+  color: var(--main-color);
+}
+
+.form_submit {
+  margin-top: 42px;
+}
+.ant-modal-close-x {
+  
+  width: 28px !important;
+  line-height: 0px !important;
+  height: 0 !important;
+  margin: 10px 10px 0;
+}
+.ant-radio-group.ant-radio-group-outline {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.ant-radio-checked .ant-radio-inner,
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner {
+  border-color: var(--main-color);
+}
+
+.ant-radio-input:focus + .ant-radio-inner {
+  box-shadow: 0 0 0 3px #311a2f10 !important;
+}
+
+.ant-radio-inner:after,
+.ant-radio-inner:focus {
+  background-color: var(--main-color);
+}
+
+.ant-picker-input {
+  padding: 0.7rem 0rem;
+}
+.ant-picker-input > input::placeholder {
+  font-size: 12px !important;
+  font-weight: 600;
+  color: var(--secondary-color) !important;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  border: 2px dashed #bdbdbd !important;
+  border-radius: 5px !important;
+}
+
+.ant-upload.ant-upload-select-picture-card svg {
+  font-size: 22px;
+  color: #bdbdbd;
+}
+.ant-upload.ant-upload-select-picture-card {
+  margin: 0 !important;
+}
+
+textarea.ant-input {
+  min-height: 78px !important;
+  margin: 0 !important;
+}
+
+.sms_wrapper .ant-form.ant-form-horizontal .section_name_input {
+  background: #eaeaea !important;
+  border-radius: 5px !important;
+}
+.sms_wrapper .ant-form.ant-form-horizontal {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center;
+}
+
+.modal_content .ant-form.ant-form-horizontal .action_btn {
+  margin-right: 0rem !important;
+  width: 40px;
+  padding: 0 !important;
+}
+
+.buyurtmalar .form_group {
+  margin: 0 0rem 0 0 !important;
+}
+
+.ant-menu-item:active,
+.ant-menu-submenu-title:active {
+  color: #fff !important;
+}
+.ant-menu-item-selected a:active {
+  color: #fff !important;
+} */
+
+
+
+/* =========================== */
+
+
+
+
+.ant-select-arrow {
+  color: var(--main-color);
+}
+
+.ant-input {
+  margin-left: 5px !important;
+}
+
+/* .form_submit {
+  margin-top: 42px;
+} */
+.ant-modal-close-x {
+  width: 28px !important;
+  line-height: 0px !important;
+  height: 0 !important;
+  margin: 10px 10px 0;
+}
+.ant-radio-group.ant-radio-group-outline {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  
+}
+
+.ant-radio-checked .ant-radio-inner,
+.ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner {
+  border-color: var(--main-color);
+}
+.ant-input-affix-wrapper {
+  border-radius: 10px!important;
+}
+
+.ant-radio-input:focus + .ant-radio-inner {
+  box-shadow: 0 0 0 3px #311a2f10 !important;
+}
+
+.ant-radio-inner:after,
+.ant-radio-inner:focus {
+  background-color: var(--main-color);
+}
+
+.ant-picker-input {
+  padding: 0.7rem 1rem;
+}
+.ant-picker-input > input::placeholder {
+  font-size: 12px !important;
+  font-weight: 600;
+  color: var(--secondary-color) !important;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  height: 78px !important;
+  border: 2px dashed #bdbdbd !important;
+  border-radius: 5px !important;
+}
+
+.ant-upload.ant-upload-select-picture-card svg {
+  font-size: 22px;
+  color: #bdbdbd;
+}
+.ant-upload.ant-upload-select-picture-card {
+  margin: 0 !important;
+}
+
+textarea.ant-input {
+  min-height: 78px !important;
+  margin: 0 !important;
+}
+
+.sms_wrapper .ant-form.ant-form-horizontal .section_name_input {
+  background: #eaeaea !important;
+  border-radius: 5px !important;
+}
+.sms_wrapper .ant-form.ant-form-horizontal {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center;
+}
+
+.modal_content .ant-form.ant-form-horizontal .action_btn {
+  margin-right: 1rem !important;
+  width: 40px;
+  padding: 0 !important;
+}
+
+.buyurtmalar .form_group {
+  margin: 0 1rem 0 0 !important;
+}
+
+.ant-menu-item:active,
+.ant-menu-submenu-title:active {
+  color: #fff !important;
+}
+.ant-menu-item-selected a:active {
+  color: #fff !important;
+}
+

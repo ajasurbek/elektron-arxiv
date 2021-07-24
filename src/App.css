@@ -1,0 +1,240 @@
+@import "./fonts/stylesheet.css";
+@import "~antd/dist/antd.css";
+:root {
+  --main-color: #007BFF;
+  --btn--color: #01A7B1;
+  --secondary-color: #374e65;
+  --background: #939eb4;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif !important;
+}
+.actions__heading {
+  margin-left: 100px;
+}
+.actions__wrapper {
+  align-items: center;
+}
+.header {
+  background-color: white;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand_title {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-top: 0.5rem;
+}
+.header input {
+  background-color: #f3f3f3 !important;
+  border: none !important;
+}
+::placeholder {
+  color: #aaaaaa;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #eff4f7;
+  height: 34px !important;
+  margin-right: 2rem;
+  padding-right: 2rem;
+  height: 44px !important;
+}
+
+.avatar h4 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+.avatar span {
+  font-size: 14px;
+  color: var(--main-color);
+  opacity: 0.5;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 0.75rem;
+}
+.Body {
+  padding: 20px 30px 0px 30px;
+  height: calc(100vh - 110px);
+  overflow: auto;
+}
+
+.action_btn {
+  background-color: var(--btn--color) !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  display: flex !important;
+  justify-content: center;
+  padding: 23px 18px !important;
+  align-items: center;
+  border-radius: 5px !important;
+  margin-right: 2rem;
+}
+.ant-btn-primary {
+  border: none;
+}
+.ant-layout-sider-children {
+  height: 100vh!important;
+}
+.yellow {
+  background-color: #ffd748 !important;
+  border-color: #ffd748 !important;
+  color: #555 !important;
+}
+.action_btn_red {
+  background-color: #ff2626 !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  display: flex !important;
+  padding: 23px 18px !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px !important;
+  border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .open_side {
+    visibility: hidden;
+  }
+
+  .sideHeader {
+    padding: 0.5rem 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 15px 10px 15px 40px;
+  }
+  .sideHeader {
+    padding: 0.5rem 1rem !important;
+  }
+  .Body {
+    padding: 20px 15px 20px 15px;
+  }
+}
+
+
+
+
+.ant-table-wrapper {
+  overflow: auto;
+}
+.copyright {
+  text-align: center;
+  color: #898989;
+  font-family: "Gilroy-Regular" !important;
+  background-color: white;
+  padding: 15px;
+}
+.copyright span {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media print {
+  .ant-table.ant-table-small .ant-table-thead > tr > th {
+    background-color: var(--main-color) !important;
+  }
+}
+
+.hisobot_area {
+  width: 100%;
+  position: relative;
+  padding: 40px;
+  min-height: 70vh;
+  background-color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+}
+
+.hisobot_btn {
+  color: var(--main-color);
+  font-size: 17px;
+  padding: 10px 22px;
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: auto auto;
+  align-items: center;
+  grid-gap: 10px;
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.hisobot_action_btn {
+  color: white;
+  font-size: 16px;
+  padding: 5px 22px;
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: auto auto;
+  align-items: center;
+  grid-gap: 10px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+}
+
+.green-btn {
+  background-color: #1bdc50 !important;
+  color: white !important;
+  border-color: #1bdc50 !important;
+}
+
+.hisobot_btn_active {
+  background-color: var(--main-color);
+  color: white;
+}
+.hisobot_btns {
+  display: flex;
+  grid-gap: 10px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--main-color) !important;
+  opacity: 0.5; /* Firefox */
+}
+
+.hisobot_actions {
+  display: flex;
+  grid-gap: 25px;
+}
+p, ul , li, div, span, a, img, button {
+  margin: 0;
+  padding: 0;
+} 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

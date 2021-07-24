@@ -1,0 +1,47 @@
+.filter__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    border: 1px solid black;
+    padding: 18px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.filter__text {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.filter__wrapper-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.filter__border {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.filter__all-text {
+    color: #6F6D6D;
+}
+.filter__new-text {
+    color: #00D662;
+}
+.filter__process-text {
+    color: #1762F2;
+}
+.filter__signature-text {
+    color: #274F9B;
+}
+.filter__done-text {
+    color: #6F6D6D;
+}
+.filter__recently-done-text {
+    background-color: #069CF0;
+    color: white;
+    border: white;
+}

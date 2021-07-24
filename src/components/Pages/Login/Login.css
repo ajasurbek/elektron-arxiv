@@ -1,0 +1,88 @@
+.login_area {
+  background-color: white;
+  padding: 40px 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-radius: 2px;
+  margin: 0 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ant-input {
+  border-radius: 20px !important;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 0 20px  20px 0 !important;
+  background-color: #E5E5E5 !important;
+}
+
+.login_area input {
+  border-radius: 1px solid black !important;
+  background-color: #E5E5E5 !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 16px !important;
+  color: var(--main-color) !important;
+}
+
+
+
+.login_area input:focus,
+.ant-input-affix-wrapper-focused {
+  box-shadow: none !important;
+}
+
+.login_btn {
+  margin-top: 30px !important;
+  font-weight: 500;
+  padding: 10px 25px;
+  color: black!important;
+  background-color: #33CCCC!important;
+  border: 1px solid #FFFFFF!important;
+}
+
+.login_btn:focus {
+  background: var(--main-color) !important;
+  
+}
+
+.login_area h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.ant-input-password {
+  outline: none !important;
+  border: none !important;
+  color: var(--main-color) !important;
+  background-color: #E5E5E5 !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .login_area {
+    padding: 20px 30px;
+    margin: 0 15px;
+  }
+}
+
+.ant-input-password-icon {
+  color: var(--main-color) !important;
+}
+.login__text {
+  text-align: center;
+}
+.form__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-input-affix-wrapper > input.ant-input  {
+   background-color: #E5E5E5 !important;
+}
+.ant-input-password  {
+  background-color: #E5E5E5 !important;
+}

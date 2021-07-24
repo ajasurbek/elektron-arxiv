@@ -1,0 +1,20 @@
+.modal__clone-btn {
+    position: absolute;
+    top: 62px;
+    right: 0;
+    margin-right: auto;
+}
+.body__action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body__text {
+    margin-left: 90px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.body3__table-wrapper {
+    display: flex;
+}

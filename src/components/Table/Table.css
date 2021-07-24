@@ -1,0 +1,125 @@
+table {
+  border-collapse: collapse !important;
+  border-spacing: 0;
+  width: 100%;
+  font-family: "Nunito-Regular", sans-serif !important;
+  border-radius: 20px !important;
+  font-weight: 500 !important;
+}
+
+th,
+td {
+  border-right: 1px solid #bdbdbd;
+  text-align: left;
+  padding: 10px;
+  font-variant: normal;
+}
+tr {
+  cursor: pointer;
+}
+tr:nth-child(even) {
+  background-color: #f6f6f6;
+  border-top: 2px dashed #bdbdbd !important;
+  border-bottom: 2px dashed #bdbdbd !important;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+thead tr:first-child {
+  background-color: var(--main-color) !important;
+  color: white;
+  border: none !important;
+}
+
+.ant-table-cell {
+  padding: 6px 0 !important;
+}
+.ant-table-cell:nth-child(2),
+.ant-table-cell:nth-child(3),
+.ant-table-cell:nth-child(4) {
+  padding-left: 1rem !important;
+}
+.ant-table-cell:nth-child(5),
+.ant-table-cell:nth-child(6),
+.ant-table-cell:nth-child(7),
+.ant-table-cell:nth-child(8),
+.ant-table-cell:nth-child(9) {
+  padding-left: 1rem !important;
+}
+.ant-table-thead {
+  background-color: var(--main-color) !important;
+  color: white;
+  border: 2px solid var(--main-color);
+}
+.ant-table {
+  background: none;
+}
+.Table_div {
+  overflow: auto;
+  background-color: white;
+  margin: 15px auto;
+}
+
+.ant-table.ant-table-small .ant-table-thead > tr > th {
+  padding: 0 !important;
+  background-color: var(--main-color) !important;
+  font-size: 12px !important;
+  -webkit-print-color-adjust: exact;
+}
+.table_head {
+  background-color: var(--main-color);
+  color: white;
+  padding: 14px 8px 14px 16px;
+}
+
+.ant-table-wrapper {
+  border-radius: 5px;
+  border: 2px solid #bdbdbd;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.c_y {
+  background-color: #ffa800;
+}
+.c_g {
+  background-color: #10cb00;
+}
+.c_r {
+  background-color: #ff0000;
+}
+.c_b {
+  background-color: #000;
+}
+
+.table_img {
+  height: 20px;
+}
+table th {
+  text-align: left !important;
+}
+
+.clickRowStyl {
+  background-color: #016cdf!important;
+  color: #fff;
+}
+
+.ant-table-tbody > .clickRowStyl:hover > td {
+  background-color: #016cdf !important;
+}
+.ant-table-cell {
+  font-size: 12px !important;
+  font-weight: 500 !important  ;
+}
+.ant-table-cell svg {
+  font-size: 15px;
+  margin: 0 1rem;
+}
+.inner_table {
+  padding: 6px 0 6px 16px;
+  border-right: 1px solid #ff007a;
+}

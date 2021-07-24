@@ -1,0 +1,137 @@
+ .form__section-form {
+    width: 100%;
+    display: flex;
+}
+.form__left {
+    max-width: 500px;
+    border: 1px solid #C4C4C4;
+    padding: 20px 25px 20px 25px !important;
+    
+}
+.form__righet {
+    position: relative;
+}
+.form__right {
+    margin-top: 170px!important;
+}
+.ant-upload-list {
+    width: 580px;
+    margin-right: 20px!important;
+}
+.ant-upload-list {
+    position: absolute;
+    top: 0;
+}
+
+/* .ant-upload-list-item-thumbnail  {
+    display: none!important;
+} */
+/* .ant-upload-list-item  {
+    width: 100px!important;
+    height: 20px!important;
+    border: none!important;
+} */
+
+/* .ant-upload-list  {
+    max-height: 150px!important;
+    overflow: auto!important;
+}
+.form__right {
+    width: 800px;
+    border: 1px dashed gray;
+    margin-right: 20px;  
+}
+.upload__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn__wrapper {
+    margin-left: 950px!important;
+}
+.upload__text {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 29px;
+    
+}  */
+
+
+/* ======================= */
+/* .upload__btn {
+    width: 300px!important;
+    height: 80px!important;
+    margin-top: 100px;
+    font-size: 20px!important;
+    color: #01A7B1!important;
+    border: 1px solid #01A7B1!important;
+    margin-bottom: 50px!important;
+} */
+
+/* ============== */
+
+/* 
+
+ */
+
+/* .upload__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.upload__icon {
+    width: 200px;
+    height: 200px;
+}
+.form__second {
+    display: flex;
+    justify-content: space-between!important;
+    margin-top: 20px;
+    
+}
+.form__heading {
+    margin-top: 10px;
+    text-align: center;
+}
+.form_group-first {
+    margin-top: 30px;
+}
+.form_group-third {
+    margin-top: 25px;
+}
+.form_group-fourth {
+    margin-top: 25px;
+}
+.form_group-sixth {
+    margin-top: 25px;
+}
+.form__second-first {
+    width: 140px;
+}
+.form__second-second {
+    width: 140px;
+}
+.form__second-third {
+    width: 140px;
+}
+.form__line {
+    max-width: 500px;
+}
+.xa {
+    width: 450px;
+    height: 150px;
+    resize: none;
+} */
+textarea {
+    resize: none;
+  }
+/* .ant-upload-drag {
+      width: 800px!important;
+      margin-right: 20px!important;
+      margin-top: 170px!important;
+      height: 42px!important;
+  }   */
+  .btn__wrapper {
+    margin-top: 50px!important;
+}
